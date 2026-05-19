@@ -1,0 +1,40 @@
+{
+  "result_file_count": 216,
+  "vulnerabilities": [
+    "reentrancy",
+    "integer_overflow",
+    "time_dependency",
+    "dos_failed_call"
+  ],
+  "baseline_methods": [
+    "RESCUER",
+    "FedAvg",
+    "CL",
+    "CLC",
+    "FedCorr",
+    "ARFL"
+  ],
+  "ablation_methods": [
+    "Ablation_Full",
+    "Ablation_woLCN",
+    "Ablation_woWarmup",
+    "Ablation_woOrtho",
+    "Ablation_woTransformer"
+  ],
+  "motivation_methods": [
+    "Motivation_Exp1",
+    "Motivation_Exp2",
+    "Motivation_Exp3",
+    "Motivation_Exp4"
+  ],
+  "uniform_noise_settings": [
+    "0.0",
+    "0.1",
+    "0.2",
+    "0.3"
+  ],
+  "asymmetric_noise_settings": [
+    "diff_10_20",
+    "diff_10_30"
+  ]
+}
