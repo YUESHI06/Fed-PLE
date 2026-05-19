@@ -1,0 +1,6 @@
+﻿Variant,noise_0.0,noise_0.1,noise_0.2,noise_0.3,overall_avg
+Ablation_Full,0.4029,0.4616,0.4611,0.3658,0.4229
+Ablation_woLCN,0.4718,0.5018,0.3198,0.1071,0.3502
+Ablation_woWarmup,0.4513,0.4522,0.4536,0.3655,0.4307
+Ablation_woOrtho,0.4988,0.4829,0.4108,0.151,0.3859
+Ablation_woTransformer,0.2171,0.1635,0.12,0.1208,0.1554

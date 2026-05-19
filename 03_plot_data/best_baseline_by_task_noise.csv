@@ -1,0 +1,17 @@
+﻿vulnerability,noise_rate,best_method,best_f1
+reentrancy,0.0,ARFL,0.434
+reentrancy,0.1,FedAvg,0.44
+reentrancy,0.2,RESCUER,0.434
+reentrancy,0.3,CL,0.4182
+integer_overflow,0.0,FedCorr,0.5
+integer_overflow,0.1,RESCUER,0.4918
+integer_overflow,0.2,CL,0.4844
+integer_overflow,0.3,CL,0.496
+time_dependency,0.0,FedAvg,0.6
+time_dependency,0.1,FedCorr,0.6
+time_dependency,0.2,FedCorr,0.6207
+time_dependency,0.3,RESCUER,0.5625
+dos_failed_call,0.0,ARFL,0.3478
+dos_failed_call,0.1,ARFL,0.4211
+dos_failed_call,0.2,ARFL,0.5
+dos_failed_call,0.3,FedAvg,0.5

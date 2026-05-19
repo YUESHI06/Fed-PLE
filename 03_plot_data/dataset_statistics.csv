@@ -1,0 +1,5 @@
+﻿Vulnerability,Clients,Train_Pos,Train_Neg,Train_Total,Test_Pos,Test_Neg,Test_Total
+reentrancy,28,80,396,476,33,169,202
+integer_overflow,28,97,483,580,41,207,248
+time_dependency,28,26,126,152,10,54,64
+dos_failed_call,28,17,81,98,6,34,40
